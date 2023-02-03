@@ -5,18 +5,19 @@
 #include "BigInt.h"
 
 int main() {
-    BigInt a;
+    BigInt a; // a = 0;
     return 0;
 }
 ```
-### Get data to BigInt
+### Place data to BigInt
 ```c++
 #include <iostream>
 #include "BigInt.h"
 
 int main() {
     BigInt a("981259601"), b(18916563), c = 1294612489;
-    BigInt d = a, e = '1', f = 1;
+    BigInt d = a, e = 1, f;
+	cin >> f;
     return 0;
 }
 ```
@@ -27,7 +28,7 @@ int main() {
 
 int main() {
     BigInt c = 1294612489;
-    std::string str = string(c);
+    std::string str = c.string();
     return 0;
 }
 ```
@@ -80,9 +81,9 @@ int main() {
 int main() {
     BigInt a = 5, b = 3, c = 7;
     if (a > b) cout << 1;
-    else cout << 0; // >>> 1
+    else cout << 0; 		// >>> 1
     if(b < c) cout << 1;
-    else cout << 0; // >>> 1
+    else cout << 0; 		// >>> 1
     return 0;
 }
 ```
