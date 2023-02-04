@@ -55,6 +55,7 @@ int main() {
     cout << c*d << endl; // >>> 105
     cout << c/d << endl; // >>> 4
     cout << c%d << endl; // >>> 1
+	cout << c.pow(d) << endl; // >>> 4084101
     return 0;
 }
 ```
