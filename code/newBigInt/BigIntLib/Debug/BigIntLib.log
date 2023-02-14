@@ -1,0 +1,63 @@
+﻿  Auxiliary.cpp
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Auxiliary.cpp(7,28): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Auxiliary.cpp(12,75): warning C4244: аргумент: преобразование "__int64" в "const int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Auxiliary.cpp(16,28): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Auxiliary.cpp(26,49): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+  Boolean.cpp
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Boolean.cpp(13,33): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Boolean.cpp(13,60): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+  ConvertTypes.cpp
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\ConvertTypes.cpp(15,20): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\ConvertTypes.cpp(15,80): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\ConvertTypes.cpp(18,20): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\ConvertTypes.cpp(18,91): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\ConvertTypes.cpp(35,45): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\ConvertTypes.cpp(60,20): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\ConvertTypes.cpp(60,38): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+  Div.cpp
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Div.cpp(15,58): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Div.cpp(16,33): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Div.cpp(16,50): warning C4244: =: преобразование "__int64" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Div.cpp(39,51): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+  Mul.cpp
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(13,62): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(13,107): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(13,157): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(14,54): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(15,42): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(15,82): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(15,95): warning C4244: =: преобразование "__int64" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(40,36): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(41,37): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(42,37): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(43,38): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(45,74): warning C4244: аргумент: преобразование "__int64" в "const int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(46,76): warning C4244: аргумент: преобразование "__int64" в "const int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(47,45): warning C4244: аргумент: преобразование "__int64" в "const int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(47,87): warning C4244: аргумент: преобразование "__int64" в "const int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(48,46): warning C4244: аргумент: преобразование "__int64" в "const int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Mul.cpp(48,89): warning C4244: аргумент: преобразование "__int64" в "const int", возможна потеря данных
+  Power.cpp
+  Sub.cpp
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Sub.cpp(32,41): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Sub.cpp(32,67): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Sub.cpp(34,33): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Sub.cpp(37,33): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Sub.cpp(39,41): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Sub.cpp(40,41): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Sub.cpp(43,41): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Sub.cpp(43,66): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+  Sum.cpp
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Sum.cpp(25,35): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Sum.cpp(25,61): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Sum.cpp(27,29): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+  Создание кода...
+  BigIntLib.vcxproj -> C:\Users\leedm\source\repos\newBigInt\Debug\BigIntLib.lib

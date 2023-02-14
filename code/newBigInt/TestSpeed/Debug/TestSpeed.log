@@ -1,0 +1,3 @@
+﻿  test.cpp
+BigIntLib.lib(ConvertTypes.obj) : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+  TestSpeed.vcxproj -> C:\Users\leedm\source\repos\newBigInt\Debug\TestSpeed.exe

@@ -1,0 +1,2 @@
+C:\Users\leedm\source\repos\newBigInt\Debug\BigIntLib.pdb
+C:\Users\leedm\source\repos\newBigInt\BigIntLib\Debug\BigIntLib.pdb

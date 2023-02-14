@@ -16,7 +16,7 @@ int main() {
 
 int main() {
     BigInt a("981259601"), b(18916563), c = 1294612489;
-    BigInt d = a, e = 1, f;
+    BigInt d = a, e = "1423461", f;
 	cin >> f;
     return 0;
 }
@@ -28,7 +28,7 @@ int main() {
 
 int main() {
     BigInt c = 1294612489;
-    std::string str = c.string();
+    std::string str = BigInt::toString(c);
     return 0;
 }
 ```
@@ -55,7 +55,7 @@ int main() {
     cout << c*d << endl; // >>> 105
     cout << c/d << endl; // >>> 4
     cout << c%d << endl; // >>> 1
-	cout << c.pow(d) << endl; // >>> 4084101
+	cout << BigInt::pow(c, d) << endl; // >>> 4084101
     return 0;
 }
 ```
