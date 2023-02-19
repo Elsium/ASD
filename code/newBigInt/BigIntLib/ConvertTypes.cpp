@@ -31,7 +31,7 @@ std::string BigInt::toString(BigInt number) {
     result.reserve(number._digits.size() * (_BASELength - 1));
     std::string tmp;
     result.append(std::to_string(number._digits[0]));
-    for (long long i = 1; i < number._digits.size(); i = i + 1) {
+    for (long long i = 1; i < number._digits.size(); i++) {
         tmp = std::to_string(number._digits[i]);
         tmp.reserve(_BASELength - tmp.size());
         while (tmp.size() < _BASELength) {

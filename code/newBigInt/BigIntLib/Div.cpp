@@ -4,9 +4,6 @@ std::pair<BigInt, BigInt> BigInt::_divide(BigInt firstNumber, BigInt secondNumbe
     if (secondNumber == 0) {
         throw "Division by zero.";
     }
-    if (secondNumber == 0) {
-        throw "Remainder of the division can`t be unpositive.";
-    }
     if (secondNumber._digits.size() == 1) {
         int divider = secondNumber._digits.front();
         int carry = 0;

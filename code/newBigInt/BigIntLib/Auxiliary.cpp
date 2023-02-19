@@ -3,7 +3,7 @@
 
 BigInt BigInt::_removeLeadingZeros(BigInt number) {
     long long border = number._digits.size() - 1;
-    for (long long i = 0; i < number._digits.size() - 1; i = i + 1) {
+    for (long long i = 0; i < number._digits.size() - 1; i++) {
         if (number._digits[i] != 0) {
             border = i;
             break;
@@ -14,7 +14,7 @@ BigInt BigInt::_removeLeadingZeros(BigInt number) {
 }
 BigInt BigInt::_shiftRight(BigInt number, long long power) {
     number._digits.reserve(power);
-    for (long long i = 0; i < power; i = i + 1) {
+    for (long long i = 0; i < power; i++) {
         number._digits.insert(number._digits.begin(), 0);
     }
     return number;

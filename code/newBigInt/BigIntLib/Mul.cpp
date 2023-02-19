@@ -1,5 +1,5 @@
-#include <future>
 #include "BigInt.h"
+#include <future>
 
 BigInt BigInt::_multiply(BigInt firstNumber, BigInt secondNumber, bool iteration_thirst) {
     if (std::min(firstNumber._digits.size(), secondNumber._digits.size()) <= _defaultKaratsuba) {
@@ -51,7 +51,7 @@ BigInt BigInt::_multiply(BigInt firstNumber, BigInt secondNumber, bool iteration
     BigInt secondProduct;
     BigInt thirdProduct;
 
-    if (iteration_thirst and std::thread::hardware_concurrency() >= 3) {
+    if (iteration_thirst && std::thread::hardware_concurrency() >= 3) {
         auto thread_first = std::async(BigInt::_multiply, firstNumberLeft, secondNumberLeft, false);
         auto thread_second = std::async(BigInt::_multiply, firstNumberRight, secondNumberRight, false);
         thirdProduct = BigInt::_multiply(BigInt::_removeLeadingZeros(firstNumberLeft)
@@ -60,7 +60,7 @@ BigInt BigInt::_multiply(BigInt firstNumber, BigInt secondNumber, bool iteration
         firstProduct = thread_first.get();
         secondProduct = thread_second.get();
     }
-    else if (iteration_thirst and std::thread::hardware_concurrency() == 2) {
+    else if (iteration_thirst && std::thread::hardware_concurrency() == 2) {
         auto thread_first = std::async(BigInt::_multiply, firstNumberLeft, secondNumberLeft, false);
         secondProduct = BigInt::_multiply(firstNumberRight, secondNumberRight, false);
         thirdProduct = BigInt::_multiply(BigInt::_removeLeadingZeros(firstNumberLeft)

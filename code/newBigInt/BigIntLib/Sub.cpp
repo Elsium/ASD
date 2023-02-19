@@ -19,12 +19,14 @@ BigInt operator -(BigInt firstNumber, BigInt secondNumber) {
         tmp = firstNumber;
         firstNumber = secondNumber;
         secondNumber = tmp;
+        delete& tmp;
     }
     if (firstNumber < secondNumber) {
         BigInt tmp = firstNumber;
         firstNumber = secondNumber;
         secondNumber = tmp;
         firstNumber._positive = false;
+        delete& tmp;
     }
     secondNumber = BigInt::_shiftRight(secondNumber, firstNumber._digits.size() - secondNumber._digits.size());
     int different;
