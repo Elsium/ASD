@@ -1,2 +1,0 @@
-C:\Users\leedm\source\repos\newBigInt\TestSpeed\Debug\TestSpeed.vcxproj.CopyComplete
-C:\Users\leedm\Desktop\ASD\code\newBigInt\TestSpeed\Debug\TestSpeed.vcxproj.CopyComplete
